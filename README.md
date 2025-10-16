@@ -1,9 +1,7 @@
 # FarmTech Solutions - Fase 2: Sistema de Irrigação Inteligente
 
 ## Integrantes do Grupo
-- Nome do Aluno 1 - RM
-- Nome do Aluno 2 - RM
-- ...
+- Arthur Peixoto Souza 
 
 ## 1. Introdução
 Este projeto simula um dispositivo IoT para automação da irrigação em uma fazenda inteligente. O sistema utiliza um ESP32 para coletar dados de sensores (simulados) de umidade do solo, pH e níveis de nutrientes (NPK) para tomar decisões sobre quando acionar uma bomba d'água.
