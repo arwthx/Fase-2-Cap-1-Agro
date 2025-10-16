@@ -16,9 +16,8 @@ A cultura escolhida para este projeto foi o **Tomate**. A lógica para acionar a
 ## 3. Circuito no Wokwi
 O circuito foi montado na plataforma Wokwi.com utilizando um ESP32 e os seguintes componentes...
 
-**(Insira aqui o print do seu circuito)**
+**<img width="1227" height="978" alt="arduino" src="https://github.com/user-attachments/assets/329a9a36-b65d-4910-a2cb-1af93dfa56f9" />
 
-Link para a simulação: [Link do seu projeto Wokwi aqui]
 
 ## 4. Funcionamento do Código
 O código do ESP32 (`FarmTech_Fase2.ino`) está estruturado em:
@@ -30,5 +29,5 @@ O código do ESP32 (`FarmTech_Fase2.ino`) está estruturado em:
     4. Aplica a lógica de decisão e aciona ou desaciona o relé.
 
 ## 5. "Ir Além": Integração com API de Clima
-(Se aplicável) Foi desenvolvido um script em Python (`weather_check.py`) que consulta a API OpenWeatherMap para verificar a previsão de chuva. Se há previsão, a irrigação é suspensa para economizar água. A integração foi feita de forma manual, onde o resultado do script informa a decisão a ser tomada na simulação.
+Foi desenvolvido um script em Python (`weather_check.py`) que consulta a API OpenWeatherMap para verificar a previsão de chuva. Se há previsão, a irrigação é suspensa para economizar água. A integração foi feita de forma manual, onde o resultado do script informa a decisão a ser tomada na simulação.
 
