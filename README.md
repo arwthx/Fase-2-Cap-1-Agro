@@ -28,6 +28,6 @@ O código do ESP32 (`FarmTech_Fase2.ino`) está estruturado em:
     3. Exibe os dados no Monitor Serial para depuração.
     4. Aplica a lógica de decisão e aciona ou desaciona o relé.
 
-## 5. "Ir Além": Integração com API de Clima
-Foi desenvolvido um script em Python (`weather_check.py`) que consulta a API OpenWeatherMap para verificar a previsão de chuva. Se há previsão, a irrigação é suspensa para economizar água. A integração foi feita de forma manual, onde o resultado do script informa a decisão a ser tomada na simulação.
+## 5. Integração com API de Clima
+Foi desenvolvido um script em Python que consulta a API OpenWeatherMap para verificar a previsão de chuva. Se há previsão, a irrigação é suspensa para economizar água. A integração foi feita de forma manual, onde o resultado do script informa a decisão a ser tomada na simulação.
 
